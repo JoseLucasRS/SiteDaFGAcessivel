@@ -43,10 +43,10 @@ function linkHighlight() {
 	var invert = $(this).attr('id');
 	
 	showLoader(function() {					
-		if($('body').hasClass("real-accessability-invert")){
-			$('body').removeClass("real-accessability-invert");	
+		if($('body').hasClass("real-accessability-linkHighlight")){
+			$('body').removeClass("real-accessability-linkHighlight");	
 		} else {
-			$('body').addClass("real-accessability-invert");			
+			$('body').addClass("real-accessability-linkHighlight");			
 		}
 	});
 }
