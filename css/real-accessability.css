@@ -217,14 +217,13 @@
 	color: #fff;
 }
 
- Effects 
 
 .real-accessability-grayscale {
-    filter: url(dataimagesvg+xml;utf8,&lt;svg xmlns='httpwww.w3.org2000svg'&gt;&lt;filter id='grayscale'&gt;&lt;feColorMatrix type='matrix' values='0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0'&gt;&lt;filter&gt;&lt;svg&gt;#grayscale);
-    filter: gray;
     -webkit-filter: grayscale(100%);
-    background:#000000;
-    font-color:#FFFFFF;
+    filter: grayscale(100%);
+	background: #000000;
+    color: #FFFFFF;
+    
  }
 
 .real-accessability-contrast {
