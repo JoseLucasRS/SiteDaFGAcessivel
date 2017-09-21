@@ -17,30 +17,32 @@ $fonteElements.each( function(){
 });
 
 function increaseFont() {
-	$fonteElements.each( function(){
-		if (fonte < 5 && fonte > 5){
-			var $this = $(this);
-			$this.css( "font-size" , parseInt($this.css("font-size")) + 1 );
-			fonte++;
-		}
-    });
+	if (fonte < 4){
+		fonte++;
+		$fonteElements.each( function(){
+				var $this = $(this);
+				$this.css( "font-size" , parseInt($this.css("font-size")) + 1 );
+				
+    	});
+	}
 }
 
 function decreaseFont() {
-	$fonteElements.each( function(){
-        if (fonte < 5 && fonte > 5){
+ 	if (fonte > -4){
+		fonte--;
+		$fonteElements.each( function(){
 			var $this = $(this);
 			$this.css( "font-size" , parseInt($this.css("font-size")) - 1 );
-			fonte--;
-		}
-    });
+		});
+	}
 }
 
 function invert() {
 	if($('body').hasClass("real-accessability-invert")){
 		$('body').removeClass("real-accessability-invert");	
 	} else {
-		$('body').addClass("real-accessability-invert");			
+		$('body').removeClass("real-accessability-grayscale");
+		$('body').addClass("real-accessability-invert");
 	}
 }
 
@@ -48,6 +50,7 @@ function grayscale() {
 	if($('body').hasClass("real-accessability-grayscale")){
 		$('body').removeClass("real-accessability-grayscale");	
 	} else {
+		$('body').removeClass("real-accessability-invert");
 		$('body').addClass("real-accessability-grayscale");			
 	}
 }
