@@ -5,7 +5,7 @@ $(document).ready(function(){
 	$('#real-accessability-biggerFont').on('click', increaseFont);
 	$('#real-accessability-smallerFont').on('click', decreaseFont);
 	$('#real-accessability-invert').on('click', invert);
-	$('#real-accessability-grayscale').on('click', grayscale);
+	$('#real-accessability-contrast').on('click', contrast);
 	$('#real-accessability-linkHighlight').on('click', linkHighlight);
 	$('#real-accessability-regularFont').on('click', regularFont);
 	$('#real-accessability-reset').on('click', reset);
@@ -41,17 +41,17 @@ function invert() {
 	if($('body').hasClass("real-accessability-invert")){
 		$('body').removeClass("real-accessability-invert");	
 	} else {
-		$('body').removeClass("real-accessability-grayscale");
+		$('body').removeClass("real-accessability-contrast");
 		$('body').addClass("real-accessability-invert");
 	}
 }
 
-function grayscale() {
-	if($('body').hasClass("real-accessability-grayscale")){
-		$('body').removeClass("real-accessability-grayscale");	
+function contrast() {
+	if($('body').hasClass("real-accessability-contrast")){
+		$('body').removeClass("real-accessability-contrast");	
 	} else {
 		$('body').removeClass("real-accessability-invert");
-		$('body').addClass("real-accessability-grayscale");			
+		$('body').addClass("real-accessability-contrast");			
 	}
 }
 
