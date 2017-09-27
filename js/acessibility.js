@@ -51,7 +51,8 @@ function contrast() {
 		$('body').removeClass("real-accessability-contrast");	
 	} else {
 		$('body').removeClass("real-accessability-invert");
-		$('body').addClass("real-accessability-contrast");			
+		$('body').addClass("real-accessability-contrast");	
+		$('#logos li a img').removeClass("grayscale");
 	}
 }
 
@@ -72,7 +73,8 @@ function regularFont() {
 function reset() {
 	$('body').removeClass("real-accessability-invert");	
 	$('body').removeClass("real-accessability-linkHighlight");
-	$('body').removeClass("real-accessability-grayscale");
+	$('body').removeClass("real-accessability-contrast");
+	$('#logos li a img').addClass("grayscale");
 	regularFont();
 	fonte = 0;
 }
