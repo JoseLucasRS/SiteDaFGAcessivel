@@ -226,11 +226,26 @@
     
  }
 
-.real-accessability-contrast {
-    -webkit-filter: contrast(100%);
-    filter: contrast(100%);	
-    color: #000;
+.real-accessability-contrastt {
+    -webkit-filter: contrast(500%);
+    filter: contrast(500%);	
+	
+	
 }
+
+.real-accessability-contrast, .real-accessability-contrast .section-title, .real-accessability-contrast section, .real-accessability-contrast header, .real-accessability-contrast footer, .real-accessability-contrast nav ul, .real-accessability-contrast h3, .real-accessability-contrast h2, .real-accessability-contrast p, .real-accessability-contrast .panel-heading, .real-accessability-contrast .panel-title, .real-accessability-contrast .panel-primary .real-acessibility #social-icons{
+	background: #000000!important;
+	color: #ffffff!important;
+}
+.real-accessability-contrast  a, .real-accessability-contrast button{
+	color: #FC0 !important;
+	background: #000000!important;
+}
+.real-accessability-contrast .no-contrast, .real-accessability-contrast .no-contrast a {
+	background: #ffffff!important;
+
+}
+
 
 .real-accessability-invert {
     background:#000000;
