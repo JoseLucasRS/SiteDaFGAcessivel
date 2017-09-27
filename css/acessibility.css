@@ -1,3 +1,12 @@
+body{
+	-webkit-transition: all 0.2s;
+    -moz-transition: all 0.2ms;
+    -o-transition: all 0.2ms;
+    transition: all 0.2s; 
+}
+.section-post-wrapper ul li p{
+	margin: 5px auto!important;
+}
 #real-accessability{
 	position: inherit;
 	border: none;

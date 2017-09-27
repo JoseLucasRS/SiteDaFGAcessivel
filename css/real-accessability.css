@@ -233,7 +233,7 @@
 	
 }
 
-.real-accessability-contrast, .real-accessability-contrast .section-title, .real-accessability-contrast section, .real-accessability-contrast header, .real-accessability-contrast footer, .real-accessability-contrast nav ul, .real-accessability-contrast h3, .real-accessability-contrast h2, .real-accessability-contrast p, .real-accessability-contrast .panel-heading, .real-accessability-contrast .panel-title, .real-accessability-contrast .panel-primary .real-acessibility #social-icons{
+.real-accessability-contrast, .real-accessability-contrast .section-title, .real-accessability-contrast section, .real-accessability-contrast header, .real-accessability-contrast footer, .real-accessability-contrast nav ul, .real-accessability-contrast h3, .real-accessability-contrast h2, .real-accessability-contrast p, .real-accessability-contrast .panel-heading, .real-accessability-contrast .panel-title, .real-accessability-contrast .panel, .real-acessibility #social-icons li{
 	background: #000000!important;
 	color: #ffffff!important;
 }
@@ -243,7 +243,9 @@
 }
 .real-accessability-contrast .no-contrast, .real-accessability-contrast .no-contrast a {
 	background: #ffffff!important;
-
+}
+.real-accessability-contrast .section-footer-wrapper a{
+	border: 2px solid #ffffff!important;
 }
 
 
