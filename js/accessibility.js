@@ -9,12 +9,18 @@ $(document).ready(function(){
 	$('#real-accessability-linkHighlight').on('click', linkHighlight);
 	$('#real-accessability-regularFont').on('click', regularFont);
 	$('#real-accessability-reset').on('click', reset);
+	$('#real-accessability-search').on('click', search);
 })
 
 $fonteElements.each( function(){
   var $this = $(this);
   $this.data("orig-size", $this.css("font-size") );
 });
+
+function search() {
+	var $this = $(this);
+	$this("#s").focus();
+}
 
 function increaseFont() {
 	if (fonte < 4){
